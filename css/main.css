@@ -3,6 +3,7 @@
 * {
 	font-family: "Open Sans", sans-serif;
 	background-color: #4f837f;
+	color: #fff;
 }
 
 body {
@@ -41,12 +42,10 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
-    transition: background-color .3s ease-in-out;
 }
 #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, .5);
+    color:#fff;
 }
 #mainNav .nav-link {
     transition: none;
@@ -60,7 +59,7 @@ body {
     color: #fff;
 }
 #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #4f837f;
 }
 #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -168,9 +167,6 @@ a {
 a:focus, a:hover {
     text-decoration: none;
     color: #3c6360;
-}
-.bg-primary {
-    background-color: #64a19d!important;
 }
 .text-primary {
     color: #64a19d!important;
