@@ -2,7 +2,7 @@
 
 * {
 	font-family: "Open Sans", sans-serif;
-	background-color: #36BAA3;
+	background-color: #37BAA3;
 	color: #fff;
 }
 
@@ -16,15 +16,15 @@ body {
 #mainNav .navbar-toggler {
     font-size: 80%;
     padding: .75rem;
-    color: #64a19d;
-    border: 1px solid #64a19d;
+    color: white;
+    border: 1px solid #fff;
 }
 #mainNav .navbar-toggler:focus {
     outline: 0;
 }
 #mainNav .navbar-brand {
     color: #fff;
-    font-weight: 700;
+    font-weight: bold;
     padding: .9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
@@ -78,7 +78,7 @@ body {
 	#mainNav.navbar-shrink .nav-link.active {
 		color: #252161;
 		outline: 0;
-		border-bottom: .25rem solid #64a19d;
+		border-bottom: .25rem solid #252161;
 	}
 }
 
@@ -88,10 +88,6 @@ body {
     height: auto;
     min-height: 35rem;
 	padding: 15rem 0;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
 }
 .masthead h1 {
     font-size: 2.5rem;
@@ -154,7 +150,7 @@ body {
 
 @media (min-width:992px) {
     .projects-section .project-text {
-    padding: 5rem;
+    	padding: 5rem;
 	}
 	.projects-section .project-text hr {
 		border-color: #64a19d;
@@ -168,8 +164,10 @@ a {
 }
 a:focus, a:hover {
 	text-decoration: none;
+	font-weight: bold;
 	color: #252161;
 }
 footer {
 	padding: 5rem 0;
 }
+
