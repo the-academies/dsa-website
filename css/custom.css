@@ -46,12 +46,12 @@
      }
      #mainNav .navbar-brand {
          padding: .5rem 0;
-         color: rgba(255, 255, 255, .5);
+         color: #fff;
      }
      #mainNav .nav-link {
          transition: none;
          padding: 2rem 1.5rem;
-         color: rgba(255, 255, 255, .5);
+         color: #fff;
      }
      #mainNav .nav-link:hover {
          color: rgba(255, 255, 255, .75);
@@ -60,7 +60,7 @@
          color: #fff;
      }
      #mainNav.navbar-shrink {
-         background-color: #37BAA3;
+         background-color: #fff;
      }
      #mainNav.navbar-shrink .navbar-brand {
          color: #252161;
@@ -295,6 +295,7 @@
  
  footer {
      padding: 5rem 0;
+     color: #fff;
  }
 
 
