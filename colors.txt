@@ -1,7 +1,0 @@
-mustard yellow: #DD9A38
-bright yellow: #EEA63D
-navy blue: #252161
-space academy teal: #37BAA3
-
-cadet blue: #5c9ead
-myrtle green: #DD9A38
