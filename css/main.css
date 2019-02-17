@@ -1,3 +1,28 @@
-nav #mainNav {
-   background-color: black;
+#nav-link, footer, *{
+    color: #362c28;
 }
+
+* {
+    background-image: url(sky.jpg);
+}
+
+nav {
+    margin-bottom: 10%;
+}
+
+
+#home {
+    background-color: rgba(243, 201, 105, 0.8);
+}
+
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: .5rem;
+    background-color: yellow;
+    opacity: 0.85;
+}
+
+/* .cta {
+    background-color: black;
+} */
