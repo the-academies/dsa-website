@@ -14,16 +14,16 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light  py-lg-4" id="home">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="home">
     <div class="container">
-      <a class="navbar-brand text-expanded d-lg-none" href="index.html">Detroit Space Academy</a>
+      <a class="navbar-brand text-expanded d-lg-none" href="#home" style="color:white; font-weight: bold;" >Detroit Space Academy</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <a class="nav-link text-uppercase text-expanded" href="#home">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -42,12 +42,12 @@
   </nav>
 
   <br><br><br><br>
-  <h1 class="py-5 text-center d-none d-lg-block">
+  <h1 class="py-5 text-center d-none d-lg-block" style="color:#37BAA3;">
       <span class="site-heading-upper text-primary mb-3">Detroit Space Academy</span>
       <br>
-      <a href="http://www.facebook.com/detroit.space.academy/"><i class="fab fa-facebook"></i></a>
-      <a href="https://twitter.com/detroit_space"><i class="fab fa-twitter"></i></a>
-      <a href="http://www.instagram.com/detroit_space_academy/"><i class="fab fa-instagram"></i></a>
+      <a style="font-size: 2rem;" href="http://www.facebook.com/detroit.space.academy/"><i class="fab fa-facebook"></i></a>
+      <a style="font-size: 2rem;" href="https://twitter.com/detroit_space"><i class="fab fa-twitter"></i></a>
+      <a style="font-size: 2rem;" href="http://www.instagram.com/detroit_space_academy/"><i class="fab fa-instagram"></i></a>
   </h1>
 
   <hr>
@@ -78,7 +78,7 @@
   <section id="product">
     <div class="container">
       <div class="row">
-          <h2>The Product</h2>
+          <h2 style="color: white;">The Product</h2>
       </div>
     </div>
   </section>
@@ -106,7 +106,7 @@
                   <p class="card-text">
                     <strong>Systems Engineer</strong>
                     <br><br>
-                    MEET THE TEAM - Angelica (<a href="https://twitter.com/AngelicaOkorom">@AngelicaOkorom</a>) our fierce Chief Executive Officer who is focused on making DSA a household name! She is a senior Masters Student at the University of Michigan - College of Engineering, slated to work for the The Boeing Company after graduation.
+                    Angelica (<a href="https://twitter.com/AngelicaOkorom">@AngelicaOkorom</a>) our fierce Chief Executive Officer who is focused on making DSA a household name! She is a senior Masters Student at the University of Michigan - College of Engineering, slated to work for the The Boeing Company after graduation.
                   </p>
                 </div>
               </div>
@@ -126,6 +126,8 @@
     </div>
   </section>
 
+  <button type="button" class="btn btn-primary" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
+
   <footer class="footer text-faded text-center py-5">
     <div class="container">
       <p class="m-0 small">Copyright &copy; Detroit Space Academy 2019</p>
@@ -135,5 +137,24 @@
   <!-- Bootstrap core JavaScript -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    } 
+  </script>
 </body>
 </html>
