@@ -1,28 +1,62 @@
 #nav-link, footer, *{
     color: #362c28;
 }
-
-* {
-    background-image: url(sky.jpg);
+nav{
+    margin-bottom: 5%;
+    background-color: rgba(243, 201, 105);
 }
 
-nav {
-    margin-bottom: 10%;
+.i {
+    font-size: .5rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
 }
 
-
-#home {
-    background-color: rgba(243, 201, 105, 0.8);
+a .fa-twitter:hover{
+    color: #1DA1F2;
 }
 
-.cta .cta-inner {
-    position: relative;
-    padding: 3rem;
-    margin: .5rem;
-    background-color: yellow;
-    opacity: 0.85;
+a .fa-facebook:hover{
+    color: #3b5998;
 }
 
-/* .cta {
-    background-color: black;
-} */
+a .fa-instagram:hover{
+    opacity: .7;
+}
+
+h2 {
+    padding: 1%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+section {
+    padding: 5%;
+}
+
+#about {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#product{
+    background-color: #abcabc;
+    opacity: .8;
+}
+
+/* Tablet View */
+@media only screen and (min-width: 600px) {
+    img {
+        height: 180px;
+    }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 800px) {
+    img {
+        height: 379px;
+    }
+}
