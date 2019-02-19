@@ -1,3 +1,4 @@
+/* Default View */
 html {
     scroll-behavior: smooth;
 }
@@ -43,18 +44,22 @@ section {
 }
 
 #about {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #product{
-    background-color: #37BAA3;
-    opacity: .7;
+    background-color: #78C2AD;
     color: white;
 }
 
 .fa-arrow-up {
     color: white;
+}
+
+#product img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #myBtn {
@@ -64,6 +69,10 @@ section {
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#product img {
+    display: none;
 }
     
 #myBtn:hover {
@@ -75,6 +84,7 @@ section {
     img {
         height: 180px;
     }
+
 }
 
 /* Desktop View */
@@ -82,8 +92,16 @@ section {
     img {
         height: 379px;
     }
+
+    #product img {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+        display: inline-flex;
+    }
 }
 
+/* Animations */
 @keyframes instagram {
     0%   {color: #405de6;}
     20%  {color:  #5851db;}
